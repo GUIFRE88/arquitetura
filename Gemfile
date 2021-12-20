@@ -16,6 +16,10 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'pry'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'shoulda-matchers'
+  gem 'faker'
 end
 
 group :development do
